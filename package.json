@@ -1,0 +1,15 @@
+{
+  "name": "percy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "baseAction.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@percy/script": "^1.0.0"
+  },
+  "scripts": {
+    "test": "npx percy exec -- node snapshots.js"
+  },
+  "author": "Quoc Bao",
+  "license": "ISC"
+}
